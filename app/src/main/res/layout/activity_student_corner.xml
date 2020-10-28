@@ -1,0 +1,169 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".StudentCorner">
+
+
+    <TextView
+        android:id="@+id/StudentLogo"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="#070E9F"
+        android:paddingTop="10sp"
+        android:paddingBottom="10sp"
+        android:text="Student Corner"
+        android:textAlignment="center"
+        android:textColor="#FFFFFF"
+        android:textSize="25sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+
+    <TextView
+        android:id="@+id/ivTextView"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="50dp"
+        android:layout_marginTop="50dp"
+        android:layout_marginEnd="50dp"
+        android:background="@drawable/mybutton"
+        android:paddingTop="10sp"
+        android:paddingBottom="10sp"
+        android:text="Industrial Visits"
+        android:textAlignment="center"
+        android:textColor="#070707"
+        android:textSize="15sp"
+        app:layout_constraintBottom_toTopOf="@id/glsTextView"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/StudentLogo" />
+
+
+    <TextView
+        android:id="@+id/glsTextView"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="50dp"
+        android:layout_marginTop="30dp"
+        android:layout_marginEnd="50dp"
+        android:background="@drawable/mybutton"
+        android:paddingTop="10sp"
+        android:paddingBottom="10sp"
+        android:text="Guest Lectures &amp; Seminars"
+        android:textAlignment="center"
+        android:textColor="#070707"
+        android:textSize="15sp"
+        app:layout_constraintBottom_toTopOf="@id/mfTextView"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/ivTextView" />
+
+
+    <TextView
+        android:id="@+id/mfTextView"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="50dp"
+        android:layout_marginTop="30dp"
+        android:layout_marginEnd="50dp"
+        android:background="@drawable/mybutton"
+        android:paddingTop="10sp"
+        android:paddingBottom="10sp"
+        android:text="Management Fest"
+        android:textAlignment="center"
+        android:textColor="#070707"
+        android:textSize="15sp"
+        app:layout_constraintBottom_toTopOf="@id/ceTextView"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/glsTextView" />
+
+
+    <TextView
+        android:id="@+id/ceTextView"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="50dp"
+        android:layout_marginTop="30dp"
+        android:layout_marginEnd="50dp"
+        android:background="@drawable/mybutton"
+        android:paddingTop="10sp"
+        android:paddingBottom="10sp"
+        android:text="Cultural Events"
+        android:textAlignment="center"
+        android:textColor="#070707"
+        android:textSize="15sp"
+        app:layout_constraintBottom_toTopOf="@id/sportsTextView"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/mfTextView" />
+
+
+    <TextView
+        android:id="@+id/sportsTextView"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="50dp"
+        android:layout_marginTop="30dp"
+        android:layout_marginEnd="50dp"
+        android:background="@drawable/mybutton"
+        android:paddingTop="10sp"
+        android:paddingBottom="10sp"
+        android:text="Sports"
+        android:textAlignment="center"
+        android:textColor="#070707"
+        android:textSize="15sp"
+        app:layout_constraintBottom_toTopOf="@id/nssTextView"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/ceTextView" />
+
+
+    <TextView
+        android:id="@+id/nssTextView"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="50dp"
+        android:layout_marginTop="30dp"
+        android:layout_marginEnd="50dp"
+        android:background="@drawable/mybutton"
+        android:paddingTop="10sp"
+        android:paddingBottom="10sp"
+        android:text="NSS"
+        android:textAlignment="center"
+        android:textColor="#070707"
+        android:textSize="15sp"
+        app:layout_constraintBottom_toTopOf="@id/caTextView"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/sportsTextView" />
+
+
+    <TextView
+        android:id="@+id/caTextView"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="50dp"
+        android:layout_marginTop="30dp"
+        android:layout_marginEnd="50dp"
+        android:layout_marginBottom="50dp"
+        android:background="@drawable/mybutton"
+        android:paddingTop="10sp"
+        android:paddingBottom="10sp"
+        android:text="Celebrations / Activities"
+        android:textAlignment="center"
+        android:textColor="#070707"
+        android:textSize="15sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/nssTextView" />
+
+
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>

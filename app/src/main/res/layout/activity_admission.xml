@@ -1,0 +1,171 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".AdmissionActivity">
+
+
+    <TextView
+        android:id="@+id/AdmissionLogo"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="#070E9F"
+        android:paddingTop="10sp"
+        android:paddingBottom="10sp"
+        android:text="Admission"
+        android:textAlignment="center"
+        android:textColor="#FFFFFF"
+        android:textSize="25sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+
+    <TextView
+        android:id="@+id/admissionEnquiryFormTextView"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="50dp"
+        android:layout_marginTop="50dp"
+        android:layout_marginEnd="50dp"
+        android:background="@drawable/mybutton"
+        android:paddingTop="10sp"
+        android:paddingBottom="10sp"
+        android:text="Admission Enquiry Form"
+        android:textAlignment="center"
+        android:textColor="#070707"
+        android:textSize="15sp"
+        app:layout_constraintBottom_toTopOf="@id/admissionBrochureTextView"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/AdmissionLogo" />
+
+
+    <TextView
+        android:id="@+id/admissionBrochureTextView"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="50dp"
+        android:layout_marginTop="30dp"
+        android:layout_marginEnd="50dp"
+        android:background="@drawable/mybutton"
+        android:paddingTop="10sp"
+        android:paddingBottom="10sp"
+        android:text="Admission Brochure 20-21"
+        android:textAlignment="center"
+        android:textColor="#070707"
+        android:textSize="15sp"
+        app:layout_constraintBottom_toTopOf="@id/eligibilityCriteriaTextView"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/admissionEnquiryFormTextView" />
+
+
+    <TextView
+        android:id="@+id/eligibilityCriteriaTextView"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="50dp"
+        android:layout_marginTop="30dp"
+        android:layout_marginEnd="50dp"
+        android:background="@drawable/mybutton"
+        android:paddingTop="10sp"
+        android:paddingBottom="10sp"
+        android:text="Eligibility Criteria UG"
+        android:textAlignment="center"
+        android:textColor="#070707"
+        android:textSize="15sp"
+        app:layout_constraintBottom_toTopOf="@id/eligibilityCriteriaPgTextView"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/admissionBrochureTextView" />
+
+
+    <TextView
+        android:id="@+id/eligibilityCriteriaPgTextView"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="50dp"
+        android:layout_marginTop="30dp"
+        android:layout_marginEnd="50dp"
+        android:background="@drawable/mybutton"
+        android:paddingTop="10sp"
+        android:paddingBottom="10sp"
+        android:text="Eligibility Criteria PG"
+        android:textAlignment="center"
+        android:textColor="#070707"
+        android:textSize="15sp"
+        app:layout_constraintBottom_toTopOf="@id/feeStrucutreTextView"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/eligibilityCriteriaTextView" />
+
+
+    <TextView
+        android:id="@+id/feeStrucutreTextView"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="50dp"
+        android:layout_marginTop="30dp"
+        android:layout_marginEnd="50dp"
+        android:background="@drawable/mybutton"
+        android:paddingTop="10sp"
+        android:paddingBottom="10sp"
+        android:text="Fee Structure"
+        android:textAlignment="center"
+        android:textColor="#070707"
+        android:textSize="15sp"
+        app:layout_constraintBottom_toTopOf="@id/contactForAdmissionTextView"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/eligibilityCriteriaPgTextView" />
+
+
+    <TextView
+        android:id="@+id/contactForAdmissionTextView"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="50dp"
+        android:layout_marginTop="30dp"
+        android:layout_marginEnd="50dp"
+        android:background="@drawable/mybutton"
+        android:paddingTop="10sp"
+        android:paddingBottom="10sp"
+        android:text="Contact For Admission"
+        android:textAlignment="center"
+        android:textColor="#070707"
+        android:textSize="15sp"
+        app:layout_constraintBottom_toTopOf="@id/mapToAmcTextView"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/feeStrucutreTextView" />
+
+
+    <TextView
+        android:id="@+id/mapToAmcTextView"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="50dp"
+        android:layout_marginTop="30dp"
+        android:layout_marginEnd="50dp"
+        android:layout_marginBottom="50dp"
+        android:background="@drawable/mybutton"
+        android:paddingTop="10sp"
+        android:paddingBottom="10sp"
+        android:text="Map To AMCEC"
+        android:textAlignment="center"
+        android:textColor="#070707"
+        android:textSize="15sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/contactForAdmissionTextView" />
+
+
+
+
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>

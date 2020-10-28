@@ -1,0 +1,89 @@
+<resources>
+    <string name="app_name">AMC</string>
+    <string name="action_settings">Settings</string>
+    <string name="ladies_lounge">Ladies\n Lounge</string>
+    <string name="student_corner">Student\n Corner</string>
+    <string name="college_social_media">College\n Social Media</string>
+    <string name="aboutAppInfo_3">The AMC app is exclusive mobile app designed and
+        developed for the use of students and staff of AMC Engineering College, Bangalore.\n"</string>string>
+    <string name="aboutAppInfo">This App provides quick information about
+    the college and the various activities conducted in the institute.
+    The app also provides access to the knowledge portal - an innovative initiative by AMC
+        to share research works of the faculty at a single for everyone to access.\n\n
+    This is the first version of the app and updates with new features will be released gradually.</string>
+    <string name="aboutAppInfo_2">
+        "This app is linked to the official website of AMC Group of Institutions.
+        "And is created to give an user interface to the user. All rights reserved by this Institution."</string>
+
+    <string name="designedBy">Rakesh Kumar Singh</string>
+
+    <string-array name="amc_ug_course_name">
+        <item>---select---</item>
+        <item>BBA</item>
+        <item>BBA-Aviation Management</item>
+        <item>B.Com</item>
+        <item>B.com(Insurance &amp; Acturial Studies)</item>
+        <item>B.com(Logistics &amp; Supply Chain Mgt.)</item>
+        <item>BCA</item>
+        <item>BHM</item>
+        <item>B.Sc (Bio-Tech)</item>
+        <item>B.Sc (Zoology)</item>
+        <item>B.Sc (Chemistry)</item>
+        <item>B.Sc (Fashion Apparel Design)</item>
+        <item>B.Sc (Interior Design &amp; Decoration)</item>
+    </string-array>
+
+    <string-array name="amc_pg_course_name">
+        <item>---select---</item>
+        <item>MBA</item>
+        <item>MCA</item>
+        <item>M.Sc (Bio-Tech)</item>
+        <item>M.Sc (Bio-Chemistry)</item>
+        <item>PG Diploma E-Commerce</item>
+        <item>PG Diploma Retail Mgt</item>
+        <item>PG Diploma Hospital Administration</item>
+    </string-array>
+
+    <string-array name="ug_course_name">
+        <item>---select---</item>
+        <item>Bachelor of Engineering</item>
+        <item>Department of science and humanity</item>
+    </string-array>
+
+    <string-array name="pg_course_name">
+        <item>---select---</item>
+        <item>M.Tech</item>
+        <item>MBA</item>
+        <item>MCA</item>
+    </string-array>
+
+    <string-array name="be_course">
+        <item>---select---</item>
+        <item>Computer Science &amp; Engg.</item>
+        <item>Civil engg.</item>
+        <item>Electronic &amp; Communication Engg.</item>
+        <item>Electrical &amp; Electronic Engg.</item>
+        <item>Information Science &amp; Engg.</item>
+        <item>Mechanical Engg.</item>
+        <item>Mechatronic Engg.</item>
+        <item>AI/Machine Learning Engg.</item>
+        <item>Aeronautical Engg.</item>
+    </string-array>
+
+    <string-array name="mtech_course">
+        <item>---select---</item>
+        <item>Machine Design</item>
+        <item>Computer Science &amp; Engg.</item>
+        <item>Digital Electronic &amp; Communication</item>
+        <item>VLSI Design &amp; Embedded Systems</item>
+        <item>Computer Network Engg.</item>
+        <item>Power Systems</item>
+    </string-array>
+
+    <string-array name="mca_course">
+        <item>---select---</item>
+        <item>MCA (Lateral Entry)</item>
+        <item>MCA (3 Year Regular)</item>
+    </string-array>
+
+</resources>
